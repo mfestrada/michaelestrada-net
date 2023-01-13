@@ -1,0 +1,8 @@
+.main {
+  align-items: center;
+  min-height: 100vh;
+}
+
+.xterm-viewport {
+  width: initial !important;
+}
