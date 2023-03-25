@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
+import { about } from './files/about.txt.js';
+import { resume } from './files/resume.txt.js';
 
 const TerminalWrapper = () => {
   useEffect(() => {
     const initTerminal = async () => {
-      // xtermjs scripts
       const { Terminal } = await import('xterm');
       const { FitAddon } = await import('xterm-addon-fit');
-      // xtermjs theme
-      var baseTheme = {
+      const baseTheme = {
         foreground: '#F8F8F8',
         background: '#000000',
         selection: '#5DA5D533',
@@ -32,38 +32,46 @@ const TerminalWrapper = () => {
         theme: baseTheme,
         cursorBlink: true,
         convertEol: false,
-        scrollback: 0
+        scrollback: 9000
       });
       const fitAddon = new FitAddon();
       terminal.loadAddon(fitAddon);
       terminal.open(document.querySelector('#terminal'));
-      
+
       fitAddon.activate(terminal);
+      fitAddon.fit();
       window.addEventListener('resize', (event) => {
         fitAddon.fit();
       });
 
-      const promptString = 'webuser@michaelestrada-net:~$ '
+      const promptString = 'hello@michaelestrada-net:~$ ';
       terminal.write('Type "help" to see available commands\r\n');
-      terminal.write(promptString)
+      terminal.write(promptString);
 
-      var command = ''
-      var commands = {
+      let command = '';
+      const commands = {
         cat: {
-          f: () => {
-            
+          f: (data) => {
+            if (data === 'about.txt') {
+              terminal.write(about);
+            } else if (data === 'resume.txt') {
+              terminal.write(resume);
+            } else {
+              terminal.write(`cat: ${data}: No such file or directory\r\n`);
+            }
+            prompt(terminal);
           },
           description: 'Concatenate and print files'
         },
         clear: {
-          f: () => {
+          f: (data) => {
             terminal.reset();
             terminal.write(promptString);
           },
           description: 'Clear the terminal screen'
         },
         help: {
-          f: () => {
+          f: (data) => {
             terminal.writeln([
               ...Object.keys(commands).map(e => `  ${e.padEnd(10)} ${commands[e].description}`)
             ].join('\r\n'));
@@ -72,24 +80,26 @@ const TerminalWrapper = () => {
           description: 'Prints this help message'
         },
         ls: {
-          f: () => {
-            terminal.writeln(['resume.json'].join('\r\n'));
+          f: (data) => {
+            terminal.writeln(['about.txt', 'resume.txt'].join('  '));
             prompt(terminal);
           },
-          description: 'Lists directory structure'
+          description: 'Lists directory contents'
         }
       }
       const prompt = (terminal) => {
         terminal.write('\r\n' + promptString);
         command = '';
       }
-
       const runCommand = (terminal, text) => {
-        const command = text.trim().split(' ')[0];
+        const command = text.trim().split(' ')[0],
+              args = text.trim().split(' ')[1];
         if (command.length > 0) {
           terminal.writeln('');
           if (command in commands) {
-            commands[command].f();
+            let data;
+            if (command === 'cat') data = args;
+            commands[command].f(data);
             return;
           }
           terminal.writeln(`${command}: command not found`);
