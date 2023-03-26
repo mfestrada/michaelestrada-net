@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { about } from './files/about.txt.js';
 import { resume } from './files/resume.txt.js';
 
 const TerminalWrapper = () => {
@@ -52,9 +51,7 @@ const TerminalWrapper = () => {
       const commands = {
         cat: {
           f: (data) => {
-            if (data === 'about.txt') {
-              terminal.write(about);
-            } else if (data === 'resume.txt') {
+            if (data === 'resume.txt') {
               terminal.write(resume);
             } else {
               terminal.write(`cat: ${data}: No such file or directory\r\n`);
@@ -81,7 +78,7 @@ const TerminalWrapper = () => {
         },
         ls: {
           f: (data) => {
-            terminal.writeln(['about.txt', 'resume.txt'].join('  '));
+            terminal.writeln('resume.txt');
             prompt(terminal);
           },
           description: 'Lists directory contents'
