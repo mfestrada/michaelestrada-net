@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { getMotd } from './files/motd.txt.js';
 import { resume } from './files/resume.txt.js';
 
 const TerminalWrapper = () => {
@@ -44,7 +45,8 @@ const TerminalWrapper = () => {
       });
 
       const promptString = 'hello@michaelestrada-net:~$ ';
-      terminal.write('Type "help" to see available commands\r\n');
+      // terminal.write('Type "help" to see available commands\r\n');
+      terminal.write(getMotd())
       terminal.write(promptString);
 
       let command = '';
