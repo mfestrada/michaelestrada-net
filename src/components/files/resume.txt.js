@@ -24,7 +24,6 @@ Full Stack Developer, TEKsystems at Apple Inc., Sunnyvale, CA July 2018 - Decemb
 - Created test tooling.\r
 \n
 Consultant, Excelon Development at Pingpad.io, Remote February 2018 - March 2018\r
-\r
 - Was the sole QA resource for Kanban-style dashboard app for Slack (startup).\r
 - Automated daily testing tasks with JavaScript and Selenium WebDriver.\r
 - Authored QA documentation.\r
