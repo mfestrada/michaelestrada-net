@@ -14,28 +14,25 @@ Operating Systems: Windows, macOS, Linux (deb/rpm)\r
 Professional Experience\r
 -----------------------\r
 Release Engineer, PRO Unlimited at Apple Inc., Sunnyvale, CA December 2019 - present\r
-- Creating dynamic Jenkins CI pipelines using Groovy, Bash, Python.\r
-- Conceptualizing dynamic, scalable, modern CI solutions for apple.com.\r
-- Performing code reviews for peers.\r
+- Creating dynamic, scalable, modern CI solutions for apple.com.\r
 \n
 Full Stack Developer, TEKsystems at Apple Inc., Sunnyvale, CA July 2018 - December 2019\r
-- Authored dynamic testing frameworks for Framework components of Apple.com using Nodejs (Mocha, Selenium).\r
+- Authored dynamic testing frameworks for components of apple.com using Nodejs (Mocha, Selenium, Testcafe).\r
 - Implemented Docker for a portable test runtime solution.\r
 - Wrote Jenkins pipelines using Groovy for integrating test harnesses.\r
 - Created multiple report interfaces for test results programmatically for integrating with existing systems and teams.\r
-- Created tooling to orchestrate browser via websockets.\r
+- Created test tooling.\r
 \n
 Consultant, Excelon Development at Pingpad.io, Remote February 2018 - March 2018\r
 \r
 - Was the sole QA resource for Kanban-style dashboard app for Slack (startup).\r
 - Automated daily testing tasks with JavaScript and Selenium WebDriver.\r
-- Authored QA department documentation.\r
+- Authored QA documentation.\r
 \n
 Senior Support Engineer, American Residential Warranty, Boca Raton, FL April 2016 - May 2018\r
 - Created functional testing framework using Selenium WebDriver (Python).\r
-- Managed pre-production environments (Debian Linux) using Docker.\r
+- Managed pre-production environments (Debian Linux) using internal Docker registry.\r
 - Integrated functional testing framework into Jenkins and Ansible.\r
-- Performed Ad-hoc tests and translated activities into documented test cases.\r
 - Orchestrated back-of-house operations (AD, Azure, five9 VCC) through Python and\r
 PowerShell scripts.\r
 \n
