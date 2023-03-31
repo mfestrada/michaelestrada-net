@@ -17,10 +17,12 @@ Release Engineer, PRO Unlimited at Apple Inc., Sunnyvale, CA December 2019 - pre
 - Creating dynamic, scalable, modern CI solutions for apple.com.\r
 \n
 Full Stack Developer, TEKsystems at Apple Inc., Sunnyvale, CA July 2018 - December 2019\r
-- Authored dynamic testing frameworks for components of apple.com using Nodejs (Mocha, Selenium, Testcafe).\r
+- Authored dynamic testing frameworks for components of apple.com using Nodejs (Mocha, Selenium,\r
+Testcafe).\r
 - Implemented Docker for a portable test runtime solution.\r
 - Wrote Jenkins pipelines using Groovy for integrating test harnesses.\r
-- Created multiple report interfaces for test results programmatically for integrating with existing systems and teams.\r
+- Created multiple report interfaces for test results programmatically for integrating with\r
+existing systems and teams.\r
 - Created test tooling.\r
 \n
 Consultant, Excelon Development at Pingpad.io, Remote February 2018 - March 2018\r
