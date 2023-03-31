@@ -141,7 +141,7 @@ const TerminalWrapper = () => {
     initTerminal();
   }, []);
 
-  return <div id="terminal" style={{minHeight: "100vh !important"}}></div>;
+  return <div id="terminal" style={{paddingLeft: "5px", minHeight: "100vh !important"}}></div>;
 };
 
 export default TerminalWrapper;
