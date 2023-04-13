@@ -45,7 +45,6 @@ const TerminalWrapper = () => {
       });
 
       const promptString = 'hello@michaelestrada-net:~$ ';
-      // terminal.write('Type "help" to see available commands\r\n');
       terminal.write(getMotd())
       terminal.write(promptString);
 
