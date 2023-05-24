@@ -22,10 +22,11 @@ Full Stack Developer, TEKsystems at Apple Inc., Sunnyvale, CA July 2018 - Decemb
 - Employed Docker-based containers to ensure portability and consistency of tests, greatly improving testing infrastructure.\r
 - Crafted Jenkins pipelines using Groovy, seamlessly integrating test harnesses for efficient continuous integration.\r
 - Engineered multiple report interfaces for test results, programmatically integrating with existing systems and fostering effective collaboration.\r
-- Created problem-specific CLI tools for augmenting manual testing.\r
+- Created reliable CLI tools for augmenting manual testing and boosting turn-around times.\r
+- Developed authentication library that bridged tests with Apple's internal environments.\r
 \n
 Consultant, Excelon Development at Pingpad.io, Remote February 2018 - March 2018\r
-- Solely responsible for driving quality assurance efforts for a Kanban-style dashboard app for Slack, showcasing exceptional QA skills and attention to detail\r
+- Solely responsible for driving quality assurance efforts for a Kanban-style dashboard app for Slack, showcasing exceptional QA skills and attention to detail.\r
 - Automated daily testing tasks using JavaScript and Selenium WebDriver, streamlining workflows and improving overall efficiency.\r
 - Introduced standardized QA documentation, enhancing clarity and maintaining consistency in testing processes.\r
 \n
