@@ -9,7 +9,7 @@ Languages: Java, Groovy, C#, Python, JavaScript (browser & nodejs), TypeScript, 
 Databases: MySQL, MSSQL, Postgres, Sqlite\r
 Tools: Ansible, Jenkins, Gradle, Make, Artifactory, Vault, Docker, Kubernetes, Helm\r
 Operating Systems: Windows, macOS, Linux (deb/rpm)\r
-Platform: UNIX, TCP/IP, UDP, SIP, DNS, DCHP, SSL, TLS, HTTP/HTTPS, GraphQL\r
+Platform: UNIX, TCP/IP, UDP, SIP, DNS, DHCP, SSL, TLS, HTTP/HTTPS, GraphQL\r
 \n
 Professional Experience\r
 -----------------------\r
