@@ -18,6 +18,7 @@ Release Engineer, PRO Unlimited at Apple Inc., Sunnyvale, CA December 2019 - Apr
 - Created cutting-edge CLI tools in Node.js and Python utilized within CI pipelines, streamlining development processes and enhancing efficiency.\r
 - Architected secure delivery infrastructure using containerization and orechestration technologies (Docker, Kubernetes, Helm) allowing rapid deployment of microservices.\r
 - Developed custom internal dashboard aggregating key internal metrics used by stakeholders to improve project lifecycle management.\r
+- Managed infrastructure updates using Ansible playbooks to ensure systems met internal InfoSec standards.
 \n
 Full Stack Developer, TEKsystems at Apple Inc., Sunnyvale, CA July 2018 - December 2019\r
 - Lead the development of dynamic testing frameworks for Framework components of Apple.com, leveraging nodejs (Mocha, Selenium, TestCafe) to ensure quality standards were met.\r
