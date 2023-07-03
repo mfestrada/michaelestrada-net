@@ -77,6 +77,12 @@ const TerminalWrapper = () => {
           },
           description: 'Prints this help message'
         },
+        gh: {
+          f: (data) => {
+            window.location = 'https://github.com/mfestrada'
+          },
+          description: 'Go to my GitHub profile'
+        },
         ls: {
           f: (data) => {
             terminal.writeln('resume.txt');
