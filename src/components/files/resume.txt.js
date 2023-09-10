@@ -6,26 +6,29 @@ michaelxestrada@gmail.com\r
 Skills\r
 ------\r
 Languages: Java, Groovy, C#, Python, JavaScript (browser & nodejs), TypeScript, SQL, Shell (bash/ksh/sh/zsh)\r
-Databases: MSSQL, MySQL, Django ORM, Sqlite\r
-Tools: Ansible, Jenkins, Gradle, Make\r
-Platform: Artifactory, Vault, Docker, Kubernetes\r
+Databases: MySQL, MSSQL, Postgres, Sqlite\r
+Tools: Ansible, Jenkins, Gradle, Make, Artifactory, Vault, Docker, Kubernetes, Helm\r
 Operating Systems: Windows, macOS, Linux (deb/rpm)\r
+Platform: UNIX, TCP/IP, UDP, SIP, DNS, DHCP, SSL, TLS, HTTP/HTTPS, GraphQL\r
 \n
 Professional Experience\r
 -----------------------\r
-Release Engineer, PRO Unlimited at Apple Inc., Sunnyvale, CA December 2019 - present\r
-- Spearhead the creation of dynamic, scalable, and modern CI solutions for apple.com, empowering seamless software releases.\r
-- Develop cutting-edge CLI tools utilized within CI pipelines, streamlining development processes and enhancing efficiency.\r
+Release Engineer, PRO Unlimited at Apple Inc., Sunnyvale, CA December 2019 - April 2023\r
+- Spearheaded the creation of dynamic, scalable, and modern CI solutions for apple.com, empowering seamless software releases for interactive and retail groups.\r
+- Created cutting-edge CLI tools in Node.js and Python utilized within CI pipelines, streamlining development processes and enhancing efficiency.\r
+- Architected secure delivery infrastructure using containerization and orechestration technologies (Docker, Kubernetes, Helm) allowing rapid deployment of microservices.\r
+- Developed custom internal dashboard aggregating key internal metrics used by stakeholders to improve project lifecycle management.\r
+- Managed infrastructure updates using Ansible playbooks to ensure systems met internal InfoSec standards.
 \n
 Full Stack Developer, TEKsystems at Apple Inc., Sunnyvale, CA July 2018 - December 2019\r
-- Pioneered the development of dynamic testing frameworks for Framework components of Apple.com, leveraging nodejs (Mocha, Selenium, TestCafe) to ensure robust software quality.\r
+- Lead the development of dynamic testing frameworks for Framework components of Apple.com, leveraging nodejs (Mocha, Selenium, TestCafe) to ensure quality standards were met.\r
+- Developed authentication library that bridged tests with Apple's internal environments.\r
 - Employed Docker-based containers to ensure portability and consistency of tests, greatly improving testing infrastructure.\r
 - Crafted Jenkins pipelines using Groovy, seamlessly integrating test harnesses for efficient continuous integration.\r
 - Engineered multiple report interfaces for test results, programmatically integrating with existing systems and fostering effective collaboration.\r
 - Created reliable CLI tools for augmenting manual testing and boosting turn-around times.\r
-- Developed authentication library that bridged tests with Apple's internal environments.\r
 \n
-Consultant, Excelon Development at Pingpad.io, Remote February 2018 - March 2018\r
+Consultant, Excelon Development at Pingpad.io, Remote February 2018 - July 2018\r
 - Solely responsible for driving quality assurance efforts for a Kanban-style dashboard app for Slack, showcasing exceptional QA skills and attention to detail.\r
 - Automated daily testing tasks using JavaScript and Selenium WebDriver, streamlining workflows and improving overall efficiency.\r
 - Introduced standardized QA documentation, enhancing clarity and maintaining consistency in testing processes.\r
