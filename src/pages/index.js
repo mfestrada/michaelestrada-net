@@ -28,6 +28,16 @@ export default function Home() {
           gtag('config', 'G-P3FDEX3XMJ');
         `}
       </Script>
+      <Script id='scrapers' strategy='afterInteractive'>
+        {`
+          const size = {
+            width: window.innerWidth || document.body.clientWidth,
+            height: window.innerHeight || document.body.clientHeight
+          }
+          if ((size.width === 800 && size.height === 600)
+            || navigator.webdriver) window.location = 'https://eff.org/'
+        `}
+      </Script>
     </>
   )
 }
