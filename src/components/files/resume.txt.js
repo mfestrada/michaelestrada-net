@@ -13,12 +13,12 @@ Platform: UNIX, TCP/IP, UDP, SIP, DNS, DHCP, SSL, TLS, HTTP/HTTPS, GraphQL\r
 \n
 Professional Experience\r
 -----------------------\r
-Release Engineer, PRO Unlimited at Apple Inc., Sunnyvale, CA December 2019 - April 2023\r
+Release Engineer, PRO Unlimited at Apple Inc., Sunnyvale, CA December 2019 - present\r
 - Spearheaded the creation of dynamic, scalable, and modern CI solutions for apple.com, empowering seamless software releases for interactive and retail groups.\r
 - Created cutting-edge CLI tools in Node.js and Python utilized within CI pipelines, streamlining development processes and enhancing efficiency.\r
 - Architected secure delivery infrastructure using containerization and orechestration technologies (Docker, Kubernetes, Helm) allowing rapid deployment of microservices.\r
 - Developed custom internal dashboard aggregating key internal metrics used by stakeholders to improve project lifecycle management.\r
-- Managed infrastructure updates using Ansible playbooks to ensure systems met internal InfoSec standards.
+- Managed infrastructure updates using Ansible playbooks to ensure systems met internal InfoSec standards.\r
 \n
 Full Stack Developer, TEKsystems at Apple Inc., Sunnyvale, CA July 2018 - December 2019\r
 - Lead the development of dynamic testing frameworks for Framework components of Apple.com, leveraging nodejs (Mocha, Selenium, TestCafe) to ensure quality standards were met.\r
