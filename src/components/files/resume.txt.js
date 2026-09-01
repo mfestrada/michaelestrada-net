@@ -1,63 +1,71 @@
 export const resume = `
 Michael Estrada\r
 \n
-michaelxestrada@gmail.com\r
+michaelxestrada@gmail.com | https://michaelestrada.net\r
+\n
+Summary\r
+-------\r
+Software engineer with 15+ years of experience designing, building, and operating developer tools, CI/CD systems, and\r
+release infrastructure at scale. Technical lead and core contributor to a large-scale event-driven release platform,\r
+building Go microservices, Temporal workflow orchestration, and federated GraphQL infrastructure. Experienced in applying\r
+AI to developer workflows through MCP-based tooling and intelligent automation. Deep expertise across the full stack,\r
+from Kubernetes orchestration to developer-facing CLIs and dashboards.\r
 \n
 Skills\r
 ------\r
-Languages: Java, Groovy, C#, Python, JavaScript (browser & nodejs), TypeScript, SQL, Shell (bash/ksh/sh/zsh)\r
-Databases: MySQL, MSSQL, Postgres, Sqlite\r
-Tools: Ansible, Jenkins, Gradle, Make, Artifactory, Vault, Docker, Kubernetes, Helm\r
-Operating Systems: Windows, macOS, Linux (deb/rpm)\r
-Platform: UNIX, TCP/IP, UDP, SIP, DNS, DHCP, SSL, TLS, HTTP/HTTPS, GraphQL\r
+Languages: Go, Python, TypeScript, JavaScript, Java, Groovy, C#, SQL, Shell\r
+AI / Developer Tooling: Model Context Protocol (MCP), LLM integration (Gemini, Claude, GPT-4), prompt engineering and evaluation, RAG-based knowledge retrieval, AI-assisted code generation and review workflows\r
+Infrastructure & Orchestration: Kubernetes, Helm, Containers, Temporal, Harness, Jenkins, Ansible, Pulumi, AWS EKS\r
+Data & Messaging: GraphQL (Apollo Federation), NATS, Kafka, CloudEvents, MySQL, PostgreSQL, MSSQL\r
+Platforms & Protocols: Linux/UNIX, mTLS/TLS, Git, Artifactory, Vault\r
 \n
 Professional Experience\r
 -----------------------\r
-Release Engineer, PRO Unlimited at Apple Inc., Sunnyvale, CA December 2019 - present\r
-- Spearheaded the creation of dynamic, scalable, and modern CI solutions for apple.com, empowering seamless software releases for interactive and retail groups.\r
-- Created cutting-edge CLI tools in Node.js and Python utilized within CI pipelines, streamlining development processes and enhancing efficiency.\r
-- Architected secure delivery infrastructure using containerization and orechestration technologies (Docker, Kubernetes, Helm) allowing rapid deployment of microservices.\r
-- Developed custom internal dashboard aggregating key internal metrics used by stakeholders to improve project lifecycle management.\r
-- Managed infrastructure updates using Ansible playbooks to ensure systems met internal InfoSec standards.\r
+Software Engineer, Apple Inc., Sunnyvale, CA — July 2018 - Present\r
+Release Engineering & Developer Infrastructure\r
 \n
-Full Stack Developer, TEKsystems at Apple Inc., Sunnyvale, CA July 2018 - December 2019\r
-- Lead the development of dynamic testing frameworks for Framework components of Apple.com, leveraging nodejs (Mocha, Selenium, TestCafe) to ensure quality standards were met.\r
-- Developed authentication library that bridged tests with Apple's internal environments.\r
-- Employed Docker-based containers to ensure portability and consistency of tests, greatly improving testing infrastructure.\r
-- Crafted Jenkins pipelines using Groovy, seamlessly integrating test harnesses for efficient continuous integration.\r
-- Engineered multiple report interfaces for test results, programmatically integrating with existing systems and fostering effective collaboration.\r
-- Created reliable CLI tools for augmenting manual testing and boosting turn-around times.\r
+Technical lead for a developer experience platform, driving the architecture, adoption, and evolution of services and\r
+workflows that power the dev-test-release lifecycle for consumer-facing products across four business units.\r
 \n
-Consultant, Excelon Development at Pingpad.io, Remote February 2018 - July 2018\r
-- Solely responsible for driving quality assurance efforts for a Kanban-style dashboard app for Slack, showcasing exceptional QA skills and attention to detail.\r
-- Automated daily testing tasks using JavaScript and Selenium WebDriver, streamlining workflows and improving overall efficiency.\r
-- Introduced standardized QA documentation, enhancing clarity and maintaining consistency in testing processes.\r
+Release Infrastructure & Workflow Orchestration\r
+- Led architecture and development of 10+ Go microservices and Temporal workflows powering a content release pipeline serving 9 product categories across 20+ device families, including artifact upload, content distribution, deployment automation, and security scanning.\r
+- Technical lead for a Go-based event routing service that dispatches CloudEvents to Temporal workflow namespaces, enabling multi-tenant release orchestration across teams.\r
+- Led design and implementation of a high-throughput Go service handling artifact ingestion, validation, and distribution across pre-production and production environments, increasing one team's release cadence from 1-2 per week to multiple daily deployments.\r
+- Drove adoption of multi-cluster Kubernetes deployments (AWS EKS), designing release workflows spanning dev, UAT, and production environments using Helm and Harness pipelines.\r
 \n
-Senior Support Engineer, American Residential Warranty, Boca Raton, FL April 2016 - May 2018\r
-- Developed a comprehensive functional testing framework utilizing Selenium WebDriver (Python), ensuring top-notch software quality.\r
-- Managed pre-production environments (Debian Linux) proficiently using Ansible, guaranteeing smooth deployment and configuration management.\r
-- Integrated the functional testing framework seamlessly into Jenkins and Ansible, optimizing testing processes and enhancing collaboration.\r
-- Orchestrated back-of-house operations (AD, Azure, five9 VCC) through the strategic implementation of Python and PowerShell scripts, streamlining operations and improving overall efficiency.\r
+Federated GraphQL & Apollo Router Platform\r
+- Led the design and implementation of a GitOps-driven Apollo Router platform, automating schema validation, supergraph recomposition, and router deployment across multiple Kubernetes clusters.\r
+- Led development of Go-based workflows for PQL (Persisted Query List) validation and schema composition, integrating with GitHub check runs to provide real-time developer feedback on pull requests.\r
+- Designed and deployed an mTLS sidecar proxy for secure service-to-service authentication across federated subgraph services.\r
+- Drove federated data graph configuration strategy across environments, enabling safe, incremental schema changes without service disruption.\r
 \n
-Software QA Engineer, Sato Global Solutions, Fort Lauderdale, FL July 2015 - September 2015\r
-- Engineered a robust test harness for a web service using C#, SQL, and JSON, ensuring thorough and effective testing.\r
-- Generated comprehensive nightly test reports using Jenkins, .NET, and ReportUnit, enabling stakeholders to make informed decisions.\r
-- Successfully migrated the organization's existing SCM solution from SVN to Microsoft TFS, showcasing strong technical proficiency and project management skills.\r
+AI-Powered Developer Tools\r
+- Led development of MCP (Model Context Protocol) servers integrating LLM-based AI assistants with project management and documentation systems, enabling autonomous CRUD operations, format conversion, and contextual retrieval.\r
+- Designed and implemented prompt pipelines and RAG-based knowledge retrieval, integrating LLM APIs (Gemini, Claude, GPT-4) into developer workflows for automated code review, test generation, and release documentation.\r
+- Authored domain-specific skills and knowledge bases for an AI agent platform, enabling LLM-driven tools to reason about GitOps configuration patterns, deployment topologies, and release procedures.\r
 \n
-QMO Test Engineer, American Airlines, Phoenix, AZ August 2014 - January 2015\r
-- Developed automated test cases using C# and .NET 4.5 for service-layer tests, demonstrating expertise in XML handling and data validation.\r
-- Employed Selenium WebDriver and C# to create automated test cases for the AUT's UI, showcasing proficiency in frontend testing.\r
-- Implemented code to generate detailed pass/fail reports programmatically, enabling efficient result analysis.\r
-- Integrated C# framework with test cases written in Microsoft Test Manager as a data source, optimizing test management and execution.\r
-- Leveraged MS SQL queries and stored procedures for effective data validation in tests, ensuring accuracy and reliability.\r
-- Analyzed complex business logic related to flight and crew scheduling, ensuring comprehensive test coverage.\r
-- Led and participated in code reviews, actively contributing to the improvement of legacy code.\r
+CI/CD Pipelines & Build Infrastructure\r
+- Led long-term ownership of core CI/CD pipeline repositories, spanning Jenkins pipeline definitions, build tooling, and deployment automation across CMS, retail, channel, and interactive properties supporting 9 product categories and 20+ device families -- including 3D modeling and XR content teams.\r
+- Built and maintained SVN tooling supporting content repository migrations, handling edge cases in large-scale SCM transitions.\r
+- Defined and tracked release health metrics across teams, building a deployment tracking service (TypeScript) and analytics dashboard with API gateway (Node.js) that provided data-driven insights into deployment velocity and pipeline reliability.\r
+- Created CLI tools in Node.js and Python utilized within CI pipelines, streamlining development and release workflows.\r
+- Automated a previously manual data pipeline -- replacing scripts and hand-managed uploads with an hourly scheduled workflow -- eliminating hours of manual effort per cycle and enabling reliable, repeatable delivery.\r
+- Authored reusable Helm charts and Kubernetes configurations adopted across multiple service deployments.\r
+- Managed infrastructure updates using Ansible playbooks to ensure systems met internal security standards.\r
 \n
-Senior QA Engineer, L1, Publicis.Sapient, Miami, FL April 2007 - May 2012\r
-- Conducted thorough testing on applications built on multiple runtimes and platforms (.NET, Java, Adobe Flash), showcasing versatility and adaptability.\r
-- Authored comprehensive QA documentation, including test plans, test suites, test cases, and bug reports, ensuring effective communication and knowledge transfer.\r
-- Performed meticulous ad-hoc tests for web applications and services, demonstrating a keen eye for detail and a proactive approach to quality assurance.\r
-- Automated server configurations for web applications (IIS, Apache) using PowerShell and shell scripts, enhancing efficiency and accuracy.\r
-- Led site migrations for onboarding new clients, flawlessly integrating them into pre-production environments (DEV/QA/UAT), showcasing strong project management skills.\r
-- Successfully handled build and release processes for various .NET applications, leveraging multiple scripting languages and build tools, including Python, shell, PowerShell, MSBuild, Batch, and nAnt.\r
+Testing Frameworks & Developer Experience (2018-2020)\r
+- Led the development of dynamic testing frameworks for consumer-facing products, leveraging Node.js (Mocha, Selenium, TestCafe) with container-based portability.\r
+- Developed an authentication library bridging test harnesses with internal identity management environments.\r
+- Crafted Jenkins pipelines using Groovy, integrating test harnesses for continuous integration and automated reporting.\r
+\n
+Prior Experience\r
+----------------\r
+Consultant, Excelon Development (Remote) | 2018\r
+Senior Support Engineer, American Residential Warranty, Boca Raton, FL | 2016-2018\r
+QMO Test Engineer, American Airlines, Phoenix, AZ | 2014-2015\r
+Senior QA Associate, Publicis.Sapient, Miami, FL | 2007-2012\r
+\n
+Earlier roles spanning test automation, CI/CD, infrastructure management, and build engineering across enterprise\r
+environments. Built testing frameworks (Selenium, C#/.NET, Python), automated server configurations, managed\r
+pre-production environments with Ansible, and led build/release processes using Python, PowerShell, and MSBuild.\r
 `;
